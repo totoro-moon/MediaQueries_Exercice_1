@@ -1,0 +1,22 @@
+.Container{
+  display: flex;
+}
+.CarréVert{
+  height: 20vh;
+  width: 20vh;
+  background-color: green;
+  border: 1px solid black;
+}
+.RectancleJaune{
+  height: 20vh;
+  width: 70vh;
+  background-color: yellow;
+  border: 1px solid black;
+}
+@media screen and (max-width: 768px){
+  .Container{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: grey;
+  }
+}
